@@ -10,5 +10,5 @@ As soon as you open the page game will  start automatically. Just open how to pl
 
 In "HOW TO PLAY" popup will see a Tic-Tac-Toe board with *Game ID*. You will need to open an another browser tab or window with the same URL with a quesry string, for example, when your game ID is 1234, your "opponent" has to access the same URL as yours with **?id=1234** appended in the end.
 
-
+You cn also chat with your oponents through chat box available in bottom right side of the page.
 ![Tic-Tac-Toe](https://raw.githubusercontent.com/pubnub/api-guide-with-tictactoe/master/images/tictactoe.gif "Tic-Tac-Toe")

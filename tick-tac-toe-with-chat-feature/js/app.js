@@ -409,17 +409,6 @@ function formatAMPM(date) {
     });
   }
 })();
-
-$(".mytext").on("keydown", function(e){
-    if (e.which == 13){
-        var text = $(this).val();
-        if (text !== ""){
-            insertChat("me", text);              
-            $(this).val('');
-        }
-    }
-});
-
 $('body > div > div > div:nth-child(2) > span').click(function(){
     $(".mytext").trigger({type: 'keydown', which: 13, keyCode: 13});
 })
